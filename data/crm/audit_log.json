@@ -1,8 +1,8 @@
 [
   {
-    "id": "bcf2b49d-34df-4681-a198-0aeb86a5757e",
-    "run_id": "run_0380655d",
-    "timestamp": "2026-07-17T06:06:15.056161+00:00",
+    "id": "bf31848e-fde8-4feb-b159-0b9fb83ce0de",
+    "run_id": "run_5bf2868c",
+    "timestamp": "2026-07-17T06:39:38.609739+00:00",
     "customer_id": "cust_001",
     "applied_by": "crm_agent",
     "applied_updates": [
@@ -76,9 +76,9 @@
     "total_deferred": 0
   },
   {
-    "id": "06293f11-e9cc-4c39-9bd6-f01ed6c7211c",
-    "run_id": "run_d754e8e7",
-    "timestamp": "2026-07-17T06:06:35.732151+00:00",
+    "id": "1c04cd26-da02-46f3-aabc-0fdf7f80a2b1",
+    "run_id": "run_f74654ed",
+    "timestamp": "2026-07-17T06:39:44.293067+00:00",
     "customer_id": "cust_001",
     "applied_by": "crm_agent",
     "applied_updates": [
@@ -97,7 +97,7 @@
       {
         "field": "close_date",
         "old_value": null,
-        "new_value": "end of this",
+        "new_value": "end of May",
         "confidence": 0.82
       },
       {
@@ -118,7 +118,7 @@
         "old_value": [
           "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint."
         ],
-        "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of this. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint.",
+        "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of May. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint.",
         "confidence": 0.85
       },
       {
@@ -151,9 +151,9 @@
     "total_deferred": 0
   },
   {
-    "id": "c4e8d1a1-d994-43d1-82f3-1393fda2d9ad",
-    "run_id": "run_5e1907af",
-    "timestamp": "2026-07-17T06:06:50.327769+00:00",
+    "id": "e7370c8b-f981-4a7b-a8be-0ec0d4e3a7f2",
+    "run_id": "run_59100e4d",
+    "timestamp": "2026-07-17T06:39:48.900847+00:00",
     "customer_id": "cust_001",
     "applied_by": "crm_agent",
     "applied_updates": [
@@ -191,7 +191,7 @@
         "field": "notes_history",
         "old_value": [
           "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint.",
-          "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of this. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint."
+          "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of May. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint."
         ],
         "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: June 1st. Required actions: send_proposal, send_contract.",
         "confidence": 0.85
@@ -247,48 +247,6 @@
     ],
     "deferred_updates": [],
     "total_applied": 13,
-    "total_deferred": 0
-  },
-  {
-    "id": "f08cebb6-7455-4ba5-ab09-0cde2c196a56",
-    "run_id": "run_2fad1c2f",
-    "timestamp": "2026-07-17T06:08:51.293392+00:00",
-    "customer_id": "cust_002",
-    "applied_by": "crm_agent",
-    "applied_updates": [
-      {
-        "field": "expected_revenue",
-        "old_value": 0,
-        "new_value": 20000,
-        "confidence": 0.88
-      },
-      {
-        "field": "num_users",
-        "old_value": null,
-        "new_value": 50,
-        "confidence": 0.9
-      },
-      {
-        "field": "notes_history",
-        "old_value": [],
-        "new_value": "Meeting with Pinnacle Logistics. Buying intent: MEDIUM. Interested in 50 users. Estimated deal value: $20,000. Customer concerns: timeline_pressure, budget_constraint.",
-        "confidence": 0.85
-      },
-      {
-        "field": "conversion_likelihood",
-        "old_value": 0.5,
-        "new_value": 0.45,
-        "confidence": 0.88
-      },
-      {
-        "field": "next_best_action",
-        "old_value": null,
-        "new_value": "SCHEDULE_DISCOVERY_FOLLOW_UP: Deepen qualification. Identify decision maker and budget approval path.",
-        "confidence": 0.72
-      }
-    ],
-    "deferred_updates": [],
-    "total_applied": 5,
     "total_deferred": 0
   }
 ]

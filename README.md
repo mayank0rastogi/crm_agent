@@ -288,29 +288,12 @@ Likelihood answers: *"how likely is this deal to close, given what just happened
 
 ---
 
-## Evaluation Framework
-
-`run_evaluation.py` runs 5 test cases against 5 metrics:
-
-| Test | Metric | What it tests |
-|---|---|---|
-| `tc_001` | Extraction accuracy | 5 fields scored against ground truth (exact/fuzzy match) |
-| `tc_002` | Stage prediction | Contract signing → must classify as "Closed Won" |
-| `tc_003` | Action recall / precision | Security questionnaire must appear before proposal |
-| `tc_004` | Hallucination rate | Vague transcript: inferred revenue must stay low-confidence |
-| `tc_005` | Guardrail effectiveness | Two policy violations must both be caught |
-
----
-
 ## Setup & Run
 
 ```bash
 # No pip install needed for core — pure Python 3.8+
 python init_data.py    # Reset all CRM + customer wikis to initial state (run before every demo)
 python main.py         # Interactive call-by-call demo
-
-# Evaluation suite
-python run_evaluation.py
 
 # Optional: graph visualization
 pip install networkx matplotlib
@@ -781,11 +764,15 @@ Business rules are implemented as pure Python functions — not prompts. This is
 - Rules are declarative (JSON-configurable) via the rule engine
 
 ### 3. Entity Resolution (Bonus)
-A lightweight knowledge graph (`entity_graph.json`) maps company aliases:
+A lightweight knowledge graph (`data/wiki/entity_graph.json`) maps company aliases to their canonical legal name:
 ```json
-{ "Velora": "Etihad Airport Services" }
+{
+  "canonical_name": "XYZ Air Services",
+  "aliases": ["XYZ Aviation Group", "xyz aviation"],
+  "relationships": [{"from": "XYZ Aviation Group", "to": "XYZ Air Services", "type": "renamed_to"}]
+}
 ```
-The `EntityResolver` checks this graph during extraction so CRM updates always use the canonical name.
+In Call 1, the CRM has `company_name: XYZ Aviation Group`. The customer says *"you may still have us listed as XYZ Aviation Group — we rebranded to XYZ Air Services"*. The `EntityResolver` resolves this alias to the canonical name and the guardrail validates it against the entity graph before updating the CRM.
 
 ### 4. Wiki as Living Knowledge
 `company_knowledge.json` is append-only with versioned entries. Every update writes a `wiki_changelog.json` entry with timestamp. The wiki is queried by the extraction and update agents at runtime.
@@ -801,11 +788,9 @@ Every pipeline run writes a full trace: input → extraction → guardrail resul
 ## Setup & Run
 
 ```bash
-# No pip install needed — pure stdlib
-python main.py
-
-# Run evaluation suite
-python run_evaluation.py
+# No pip install needed — pure Python 3.8+
+python init_data.py    # Reset all data to clean initial state (run before every demo)
+python main.py         # Interactive call-by-call demo
 ```
 
 ### Python version
@@ -813,83 +798,23 @@ Python 3.8+ (no external packages required)
 
 ---
 
-## Sample Output
-
-```
-============================================================
-  CRM AGENT PIPELINE — RUN #1
-============================================================
-
-[EXTRACTION AGENT]
-  company_name       : Etihad Airport Services  (conf: 0.95) ✓ entity resolved from 'Velora'
-  deal_size_users    : 500                       (conf: 0.90)
-  revenue_estimate   : $250,000                  (conf: 0.75)
-  timeline           : Q1 next year              (conf: 0.88)
-  buying_intent      : HIGH                      (conf: 0.82)
-  requested_actions  : [pricing_details, security_document]
-
-[GUARDRAILS]
-  ✓ Stage transition valid: Qualification → Discovery
-  ✓ Entity resolved: Velora → Etihad Airport Services
-  ⚠ RULE VIOLATION: Security doc must be sent before commercial proposal
-  ✓ Revenue in acceptable range for Enterprise tier
-  ✓ Required security review triggered (deal > $100k)
-
-[PROPOSED CRM UPDATES]
-  account_name    : Velora → Etihad Airport Services  (conf: 0.95)
-  stage           : Qualification → Discovery          (conf: 0.88)
-  expected_revenue: $250,000 → $375,000               (conf: 0.72) ⚠ LOW CONFIDENCE
-  follow_up_tasks : [Send security questionnaire, Schedule pricing call]
-
-[REVIEW AGENT]
-  Verdict: REVISE
-  Issues found:
-    - Revenue update lacks evidence in transcript (hallucination risk)
-    - Missing: renewal date not updated despite Q1 mention
-  Revised updates approved.
-
-[HUMAN-IN-THE-LOOP]
-  ⚠ expected_revenue update (conf: 0.72) requires human approval
-  → Flagged for review
-
-[FINAL CRM STATE]
-  account_name    : Etihad Airport Services
-  stage           : Discovery
-  expected_revenue: $250,000  (pending human review)
-  follow_up_tasks : [Send security questionnaire, Schedule pricing call]
-```
-
----
-
-## Evaluation Approach
-
-The evaluation framework (`run_evaluation.py`) tests against manually created cases:
-
-| Metric | Method |
-|--------|--------|
-| Extraction accuracy | Field-level exact match vs. ground truth |
-| Stage prediction | Correct stage classification rate |
-| Action recommendation | Precision/recall on required follow-up actions |
-| Hallucination rate | % of updates with no supporting transcript evidence |
-| Guardrail effectiveness | % of rule violations correctly caught |
-| Reviewer accuracy | % of bad updates caught by review agent |
-
 ---
 
 ## Assumptions
 
-1. LLM behavior is simulated deterministically — in production, swap `MockLLM` for any LLM client
-2. CRM is a JSON file — in production, this maps to Salesforce/HubSpot API calls
+1. LLM behavior is simulated deterministically — in production, swap `MockLLM` for any real LLM client
+2. CRM is JSON files — in production, this maps to Salesforce/HubSpot API calls
 3. Wiki updates are append-only (no deletions) to preserve audit history
-4. Revenue estimates from transcripts are treated as approximate — requiring human confirmation if confidence < 0.75
+4. Revenue inferred from user count stays below the auto-apply confidence threshold → routed to HITL
 5. Stage can only advance forward (no regression) unless explicitly overridden
-6. All times are UTC
+6. Entity graph starts pre-loaded with known aliases; grows as agent discovers new renames from transcripts
 
 ---
 
 ## Extensibility
 
-- **Add a new guardrail rule**: Add an entry to `data/wiki/rules.json` — no code change needed
-- **Add a new LLM provider**: Subclass `BaseLLM` in `src/llm_mock/mock_llm.py`
-- **Add a new CRM field**: Add to `CRM_SCHEMA` in `src/crm/crm_store.py`
-- **Add a new test case**: Add JSON entry to `data/evaluation/test_cases.json`
+- **Add a guardrail rule**: Add an entry to `BUILTIN_RULES` in `src/guardrails/rule_engine.py`
+- **Add a new customer**: Create `data/customers/cust_XXX/` with profile + CRM + transcripts
+- **Swap to a real LLM**: Subclass `BaseLLM` in `src/llm_mock/mock_llm.py`
+- **Add a new CRM field**: Add to `crm_opportunity.json` and `propose_crm_updates()` in `mock_llm.py`
+- **Add an entity alias**: Add to `data/wiki/entity_graph.json` — resolver picks it up at runtime

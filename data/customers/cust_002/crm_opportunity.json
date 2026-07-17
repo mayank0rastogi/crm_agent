@@ -2,21 +2,19 @@
   "customer_id": "cust_002",
   "company_name": "Pinnacle Logistics",
   "stage": "Qualification",
-  "expected_revenue": 20000,
+  "expected_revenue": 0,
   "actual_revenue": null,
-  "num_users": 50,
+  "num_users": null,
   "deal_duration_years": null,
   "close_date": null,
   "renewal_date": null,
-  "conversion_likelihood": 0.45,
+  "conversion_likelihood": 0.5,
   "loss_reason": null,
-  "next_best_action": "SCHEDULE_DISCOVERY_FOLLOW_UP: Deepen qualification. Identify decision maker and budget approval path.",
+  "next_best_action": null,
   "follow_up_recommended": null,
   "follow_up_rationale": null,
   "follow_up_tasks": [],
-  "notes_history": [
-    "Meeting with Pinnacle Logistics. Buying intent: MEDIUM. Interested in 50 users. Estimated deal value: $20,000. Customer concerns: timeline_pressure, budget_constraint."
-  ],
+  "notes_history": [],
   "owner_ae": "Ben Carter",
   "custom_fields": {
     "security_questionnaire_sent": false,
@@ -26,5 +24,5 @@
     "contract_signed": false
   },
   "created_date": "2025-01-15T00:00:00Z",
-  "last_modified": "2026-07-17T06:08:51.293392+00:00"
+  "last_modified": "2025-01-15T00:00:00Z"
 }

@@ -1,20 +1,31 @@
 {
   "version": "1.0",
-  "description": "Knowledge graph for entity alias resolution. Maps all known aliases to canonical names. Starts with company data; grows as the agent discovers new aliases from transcripts.",
+  "description": "Knowledge graph \u2014 base customer data. Grows as agent discovers aliases.",
   "nodes": [
     {
       "canonical_id": "entity_001",
       "canonical_name": "XYZ Air Services",
-      "aliases": ["xyz air services", "xyz air", "xyz aviation group", "xyz aviation", "xyz"],
+      "aliases": [
+        "xyz air services",
+        "xyz air",
+        "xyz aviation group",
+        "xyz aviation",
+        "xyz"
+      ],
       "domain": "xyzair.com",
-      "deprecated_domains": ["xyzaviation.com"],
+      "deprecated_domains": [
+        "xyzaviation.com"
+      ],
       "industry": "Aviation",
       "relationship_notes": "XYZ Aviation Group rebranded to XYZ Air Services in early 2025."
     },
     {
       "canonical_id": "entity_002",
       "canonical_name": "Pinnacle Logistics",
-      "aliases": ["pinnacle", "pinnacle logistics"],
+      "aliases": [
+        "pinnacle",
+        "pinnacle logistics"
+      ],
       "domain": "pinnaclelogistics.co.uk",
       "deprecated_domains": [],
       "industry": "Logistics",
@@ -31,5 +42,3 @@
     }
   ]
 }
-
-

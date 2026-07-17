@@ -6,7 +6,7 @@
   "actual_revenue": 375000,
   "num_users": 500,
   "deal_duration_years": 3,
-  "close_date": "end of this",
+  "close_date": "end of May",
   "renewal_date": "February 2028",
   "conversion_likelihood": 1.0,
   "loss_reason": null,
@@ -19,7 +19,7 @@
   ],
   "notes_history": [
     "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint.",
-    "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of this. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint.",
+    "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of May. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint.",
     "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: June 1st. Required actions: send_proposal, send_contract."
   ],
   "owner_ae": "Alice Morgan",
@@ -31,6 +31,6 @@
     "contract_signed": true
   },
   "created_date": "2025-01-10T00:00:00Z",
-  "last_modified": "2026-07-17T06:06:50.327769+00:00",
+  "last_modified": "2026-07-17T06:39:48.900847+00:00",
   "account_name": "XYZ Air Services"
 }
