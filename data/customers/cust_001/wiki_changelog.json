@@ -1,0 +1,98 @@
+[
+  {
+    "timestamp": "2026-07-17T06:06:15.052019+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_3f287ffb",
+    "subject": "call_1_participants",
+    "category": "contacts",
+    "summary": "Call 1: David Okafor, Meera Shah"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:15.052724+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_72cde190",
+    "subject": "call_1_sentiment",
+    "category": "meeting_outcome",
+    "summary": "Sentiment: neutral \u2014 discovery_call"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:15.053363+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_b7948845",
+    "subject": "call_1_intent",
+    "category": "intent",
+    "summary": "Buying intent: HIGH after call 1."
+  },
+  {
+    "timestamp": "2026-07-17T06:06:15.054053+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_b4dd79b7",
+    "subject": "recommended_nba",
+    "category": "next_action",
+    "summary": "NBA: INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours."
+  },
+  {
+    "timestamp": "2026-07-17T06:06:35.727998+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_0c85eff4",
+    "subject": "call_2_participants",
+    "category": "contacts",
+    "summary": "Call 2: David Okafor"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:35.728677+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_472adc49",
+    "subject": "call_2_sentiment",
+    "category": "meeting_outcome",
+    "summary": "Sentiment: positive \u2014 follow_up_call"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:35.729468+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_f96f1322",
+    "subject": "call_2_intent",
+    "category": "intent",
+    "summary": "Buying intent: HIGH after call 2."
+  },
+  {
+    "timestamp": "2026-07-17T06:06:35.731564+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_79be0026",
+    "subject": "recommended_nba",
+    "category": "next_action",
+    "summary": "NBA: SEND_SECURITY_QUESTIONNAIRE: Required before any commercial proposal."
+  },
+  {
+    "timestamp": "2026-07-17T06:06:50.323489+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_d9bfdc19",
+    "subject": "call_3_participants",
+    "category": "contacts",
+    "summary": "Call 3: David Okafor, Meera Shah"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:50.324468+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_df54ac6b",
+    "subject": "call_3_sentiment",
+    "category": "meeting_outcome",
+    "summary": "Sentiment: positive \u2014 contract_signing"
+  },
+  {
+    "timestamp": "2026-07-17T06:06:50.326046+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_31e12358",
+    "subject": "call_3_intent",
+    "category": "intent",
+    "summary": "Buying intent: HIGH after call 3."
+  },
+  {
+    "timestamp": "2026-07-17T06:06:50.327319+00:00",
+    "action": "ADD",
+    "entry_id": "wiki_f23605ec",
+    "subject": "recommended_nba",
+    "category": "next_action",
+    "summary": "NBA: INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours."
+  }
+]

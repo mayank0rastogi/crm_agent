@@ -1,0 +1,14 @@
+{
+  "call_id": "cust_001_call_002",
+  "customer_id": "cust_001",
+  "call_number": 2,
+  "meeting_date": "2025-01-24T14:00:00Z",
+  "participants": ["Alice Morgan (AE, TechServ)", "David Okafor (CTO, XYZ Air Services)"],
+  "meeting_type": "follow_up_call",
+  "raw_text": "Alice: Hi David, following up from our last call. Did your security team get a chance to review the questionnaire I sent over?\n\nDavid: Yes, they went through everything. All good on the security front — they've signed off internally. No blockers there.\n\nAlice: Great to hear. I also sent over the pricing for 500 users on Enterprise — that comes out to $375,000 per year. Does that work within your budget?\n\nDavid: Meera reviewed the numbers and we're comfortable with $375,000. That fits within what we have allocated. I think we're ready to move to a formal proposal.\n\nAlice: Perfect. I'll have the proposal drafted and sent by end of this week. Should I address it to you and Meera?\n\nDavid: Yes, both of us and copy our procurement email. The legal entity is XYZ Air Services — make sure the proposal header reflects that exactly.\n\nAlice: Understood. And we're still targeting Q2 close — June at the latest?\n\nDavid: Correct. We need this signed by end of May so our IT team has time to prepare for June go-live.",
+  "metadata": {
+    "duration_minutes": 25,
+    "sentiment": "positive",
+    "intent_signals": ["security cleared", "budget confirmed", "ready for proposal", "may deadline"]
+  }
+}

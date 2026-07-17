@@ -1,0 +1,18 @@
+{
+  "call_id": "customer_001_call_003",
+  "customer_id": "customer_001",
+  "call_number": 3,
+  "meeting_date": "2025-07-02T11:00:00Z",
+  "meeting_type": "contract_close",
+  "participants": [
+    "Aisha Rahman (AE, EAS Sales)",
+    "David Chen (CFO, TechNova International)",
+    "Sandra Mills (VP Operations, TechNova International)"
+  ],
+  "raw_text": "Aisha: David, Sandra — I'm pleased you could join. I believe procurement completed their review?\n\nDavid: Yes, legal was happy with the data residency clauses. We're ready to sign. The PO number is TN-2025-0892. Contract value is £165,000 for the first year with a renewal clause at year two.\n\nAisha: Excellent. The signed contract has been received on our end. Implementation will begin August 15th as agreed.\n\nSandra: We'd like to have the onboarding for our travel admins in the first week of August so they're ready before go-live.\n\nAisha: Absolutely. I'll schedule that with our onboarding team. You'll get a dedicated customer success manager — I'll introduce you by email today.\n\nDavid: One more thing. We're expanding further — we expect to add another 100 staff by year end. Can the platform scale?\n\nAisha: Yes, additional users can be added at any time at the per-user rate. I'll include the scale-up terms in a follow-up note.\n\nSandra: Brilliant. Looking forward to getting started.\n\nAisha: Same here. Congratulations — welcome to EAS.",
+  "metadata": {
+    "duration_minutes": 25,
+    "sentiment": "positive",
+    "buying_signals": ["contract signed", "PO shared", "implementation date confirmed"]
+  }
+}

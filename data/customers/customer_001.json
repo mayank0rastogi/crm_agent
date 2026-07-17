@@ -1,0 +1,37 @@
+{
+  "customer_id": "customer_001",
+  "company_name": "TechNova Systems",
+  "industry": "Technology / Software",
+  "size": "mid-market",
+  "employee_count": 400,
+  "hq_country": "UK",
+  "primary_contact": {
+    "name": "Sandra Mills",
+    "title": "VP Operations",
+    "email": "sandra.mills@technova.co.uk"
+  },
+  "secondary_contact": {
+    "name": "David Chen",
+    "title": "CFO",
+    "email": "david.chen@technova.co.uk"
+  },
+  "crm_opportunity": {
+    "opportunity_id": "opp_customer_001",
+    "stage": "Qualification",
+    "expected_revenue": 0,
+    "close_date": null,
+    "follow_up_tasks": [],
+    "custom_fields": {
+      "security_questionnaire_sent": false,
+      "security_review_required": false,
+      "proposal_sent": false,
+      "contract_signed": false,
+      "num_users": null,
+      "data_residency_requirement": null,
+      "po_number": null,
+      "implementation_start": null
+    },
+    "notes": "Initial inbound enquiry via website."
+  },
+  "created_at": "2025-06-01T00:00:00Z"
+}

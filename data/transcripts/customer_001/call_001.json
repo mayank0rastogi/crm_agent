@@ -1,0 +1,18 @@
+{
+  "call_id": "customer_001_call_001",
+  "customer_id": "customer_001",
+  "call_number": 1,
+  "meeting_date": "2025-06-05T10:00:00Z",
+  "meeting_type": "discovery_call",
+  "participants": [
+    "Aisha Rahman (AE, EAS Sales)",
+    "Sandra Mills (VP Operations, TechNova Systems)",
+    "James Park (IT Lead, TechNova Systems)"
+  ],
+  "raw_text": "Aisha: Good morning Sandra, James — thanks for taking the time. Can you tell us a bit about what's driving this interest in our corporate travel services?\n\nSandra: Sure. We're a 400-person technology company, and we've grown quite rapidly over the last two years. Our teams travel internationally a lot — London, Dubai, Singapore, New York. Right now we have three admins manually booking everything through consumer travel sites. It's a mess. No reporting, no policy enforcement, no visibility.\n\nJames: From IT's perspective we also need proper data residency. All our employee data has to stay within the UK or EU. That's a hard requirement for us.\n\nAisha: Understood, that's something we can absolutely accommodate. What kind of headcount are we talking for the travel platform?\n\nSandra: All 400 staff would need access, though realistically about 150 are frequent travellers. We'd want the full 400 licensed for the expense module.\n\nAisha: And in terms of timeline — what's driving urgency?\n\nSandra: We want to be live before the summer travel peak. That means we need to be onboarded by the end of August at the latest. Our finance cycle also means if we don't sign by end of Q3, it gets pushed to next year's budget.\n\nAisha: Perfect. Budget-wise, what's the approved range?\n\nSandra: We've got around £120,000 to £150,000 allocated. David, our CFO, would need to sign anything above that.\n\nAisha: That should work well. I'll send over our product overview and pricing deck. What's the best next step?\n\nSandra: Send us pricing and a high-level proposal. We're also speaking to two other vendors so we're moving quickly.",
+  "metadata": {
+    "duration_minutes": 40,
+    "sentiment": "positive",
+    "buying_signals": ["timeline pressure", "budget approved", "decision maker identified"]
+  }
+}

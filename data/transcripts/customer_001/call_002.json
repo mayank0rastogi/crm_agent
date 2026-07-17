@@ -1,0 +1,18 @@
+{
+  "call_id": "customer_001_call_002",
+  "customer_id": "customer_001",
+  "call_number": 2,
+  "meeting_date": "2025-06-18T14:00:00Z",
+  "meeting_type": "follow_up_call",
+  "participants": [
+    "Aisha Rahman (AE, EAS Sales)",
+    "Sandra Mills (VP Operations, TechNova Systems)",
+    "David Chen (CFO, TechNova Systems)"
+  ],
+  "raw_text": "Aisha: Hi Sandra, David — great to have the CFO on the call today. I wanted to follow up on the security questionnaire we sent over last week.\n\nDavid: Yes, our security team reviewed it. Everything checked out. We're comfortable moving to proposal stage.\n\nSandra: One thing I should mention — we've just completed our rebrand. We're no longer TechNova Systems. We're now TechNova International. The legal entity name has changed and any contracts need to reflect that.\n\nAisha: Got it, thank you Sandra. I'll update our records to TechNova International.\n\nDavid: On the commercial side, we reviewed your pricing deck. For 400 users, the figure we saw was around £165,000 annually. That's within our approved limit if we can include the implementation support.\n\nAisha: Yes, £165,000 all-in including implementation for the first year is what we can do.\n\nDavid: That works. Can you get the formal proposal over this week? We need it by June 20th to get into our procurement review cycle.\n\nAisha: Absolutely. I'll have it with you by tomorrow. Do you anticipate any procurement blockers?\n\nSandra: No — David has sign-off authority. Once legal reviews the data residency clauses we should be good to proceed.\n\nAisha: Perfect. I'll note the EU/UK data residency requirement in the contract and flag it to our infrastructure team today.",
+  "metadata": {
+    "duration_minutes": 35,
+    "sentiment": "positive",
+    "buying_signals": ["security cleared", "CFO on call", "deadline given", "price accepted"]
+  }
+}

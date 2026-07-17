@@ -1,0 +1,14 @@
+{
+  "call_id": "cust_001_call_003",
+  "customer_id": "cust_001",
+  "call_number": 3,
+  "meeting_date": "2025-02-15T11:00:00Z",
+  "participants": ["Alice Morgan (AE, TechServ)", "David Okafor (CTO, XYZ Air Services)", "Meera Shah (VP Finance, XYZ Air Services)"],
+  "meeting_type": "contract_signing",
+  "raw_text": "Alice: David, Meera — thank you for signing off on the proposal. I'm confirming we've received the signed contract from XYZ Air Services for $375,000 per year, 3-year term.\n\nDavid: Confirmed on our end. The board signed off yesterday. We're excited to move forward. The IT team is already preparing the environment.\n\nMeera: We've processed the first invoice. Payment will be cleared within 30 days as per the agreed terms.\n\nAlice: Excellent. Your customer success manager will be in touch within 48 hours to kick off onboarding. We're targeting go-live for June 1st as planned.\n\nDavid: That works perfectly. We're moving 500 users across. The renewal would come up in February 2028 on a 3-year deal.\n\nAlice: Noted. I'll make sure that's logged. Looking forward to a successful partnership.",
+  "metadata": {
+    "duration_minutes": 20,
+    "sentiment": "very_positive",
+    "intent_signals": ["contract signed", "500 users", "$375,000", "3-year deal", "june go-live", "renewal february 2028"]
+  }
+}

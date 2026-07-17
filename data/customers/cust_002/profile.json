@@ -1,0 +1,16 @@
+{
+  "customer_id": "cust_002",
+  "company_name": "Pinnacle Logistics",
+  "industry": "Logistics / Supply Chain",
+  "hq_country": "UK",
+  "employee_count": 120,
+  "primary_contact": "Ryan Patel",
+  "primary_contact_role": "Operations Manager",
+  "contacts": [
+    {"name": "Ryan Patel", "role": "Operations Manager", "email": "ryan.patel@pinnaclelogistics.co.uk"}
+  ],
+  "domain": "pinnaclelogistics.co.uk",
+  "tier": "Standard",
+  "owner_ae": "Ben Carter",
+  "created_date": "2025-01-15T00:00:00Z"
+}

@@ -1,0 +1,20 @@
+# ──────────────────────────────────────────────────────────────────
+# CRM Agent — Python dependencies
+# Python 3.8+
+# ──────────────────────────────────────────────────────────────────
+
+# Core: ZERO external dependencies required to run the pipeline.
+# All agent logic, guardrails, mock LLM, wiki, and CRM storage use
+# only Python standard library modules:
+#   json, os, re, uuid, random, copy, datetime, dataclasses, typing
+
+# ──────────────────────────────────────────────────────────────────
+# Optional — Graph Visualization
+# Install these to get PNG journey graphs saved to output/graphs/
+# The system runs fully without them (falls back to ASCII graph).
+# ──────────────────────────────────────────────────────────────────
+networkx>=2.8          # Customer journey knowledge graph
+matplotlib>=3.5         # Graph rendering to PNG
+
+# Install with:
+#   pip install networkx matplotlib

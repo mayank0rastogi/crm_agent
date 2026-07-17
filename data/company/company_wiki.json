@@ -1,0 +1,77 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-01-01T00:00:00Z",
+  "description": "TechServ Solutions internal company knowledge — rules, pricing, processes. This wiki is the single source of truth for all sales decisions and guardrail validation.",
+  "entries": [
+    {
+      "id": "cwiki_000",
+      "category": "company_rename",
+      "subject": "XYZ Aviation Group",
+      "content": "XYZ Aviation Group was renamed to XYZ Air Services in early 2025 following an internal restructuring. The official domain is now xyzair.com. The former domain xyzaviation.com is deprecated. All CRM records should be updated to reflect the new legal entity name.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "account_team"
+    },
+    {
+      "id": "cwiki_001",
+      "category": "pricing",
+      "subject": "enterprise_pricing",
+      "content": "Enterprise tier: $750 per user per year. Minimum 100 users. Deals below 100 users are routed to Standard tier.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "pricing_team"
+    },
+    {
+      "id": "cwiki_002",
+      "category": "pricing",
+      "subject": "standard_pricing",
+      "content": "Standard tier: $500 per user per year. For 10-99 users. Minimum deal value $5,000/year.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "pricing_team"
+    },
+    {
+      "id": "cwiki_003",
+      "category": "process_rule",
+      "subject": "security_workflow",
+      "content": "Security questionnaire MUST be sent before any commercial proposal. Hard compliance requirement — no exceptions.",
+      "effective_date": "2024-06-01",
+      "added_date": "2024-06-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "compliance_team"
+    },
+    {
+      "id": "cwiki_004",
+      "category": "deal_rule",
+      "subject": "enterprise_security_review",
+      "content": "Enterprise opportunities above $100,000 require a Security Review before advancing past Discovery stage.",
+      "effective_date": "2024-06-01",
+      "added_date": "2024-06-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "revenue_ops"
+    },
+    {
+      "id": "cwiki_005",
+      "category": "process_rule",
+      "subject": "follow_up_policy",
+      "content": "If a deal is lost or stalled (low intent), one re-engagement attempt is recommended after 90 days if budget cycle or decision-maker situation may change. Do not pursue if explicit hard rejection received.",
+      "effective_date": "2024-09-01",
+      "added_date": "2024-09-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "sales_ops"
+    },
+    {
+      "id": "cwiki_006",
+      "category": "process_rule",
+      "subject": "minimum_deal_size",
+      "content": "Minimum viable deal size for Enterprise is $50,000/year. Deals below this threshold should be routed to Standard tier or placed in nurture.",
+      "effective_date": "2024-06-01",
+      "added_date": "2024-06-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "revenue_ops"
+    }
+  ]
+}

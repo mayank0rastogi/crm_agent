@@ -1,0 +1,17 @@
+{
+  "call_id": "customer_002_call_001",
+  "customer_id": "customer_002",
+  "call_number": 1,
+  "meeting_date": "2025-06-12T09:30:00Z",
+  "meeting_type": "initial_enquiry",
+  "participants": [
+    "Aisha Rahman (AE, EAS Sales)",
+    "Mike Sorensen (Office Manager, Bluemount Retail)"
+  ],
+  "raw_text": "Aisha: Good morning Mike, thanks for reaching out. You were asking about our corporate travel services?\n\nMike: Yeah, so we're a retail company. About 25 of us. Our CEO and a couple of directors travel maybe once or twice a year. I was thinking maybe airport lounge access or something like that could be useful for them.\n\nAisha: That's great. Do you have a sense of how many people would need travel management or lounge access?\n\nMike: Honestly, maybe five or six people at most. The CEO, two directors, and sometimes their PAs.\n\nAisha: And in terms of budget — have you had any internal conversations about what you're looking to spend?\n\nMike: Not really. I'm just exploring at this stage. I'd have to speak to the CEO about budget. I don't really handle the finances.\n\nAisha: Understood. Is there a particular timeline you're working towards?\n\nMike: No specific timeline. Whenever really. Maybe later this year, maybe next year. We're not in any rush.\n\nAisha: Has your CEO seen any information about our services, or is this initial exploration purely from your side?\n\nMike: Just me looking into it. I haven't mentioned it to her yet. I wanted to get some info first.\n\nAisha: Of course. What would help you take this back to her? A brochure? A pricing overview?\n\nMike: Yeah a brochure would be great. Maybe just a one-pager with pricing. Nothing too detailed at this stage.\n\nAisha: I'll send that over today. And if it makes sense after your CEO reviews it, we can set up a more detailed call.\n\nMike: Yeah sounds good. No promises though — just seeing what's out there.",
+  "metadata": {
+    "duration_minutes": 15,
+    "sentiment": "neutral",
+    "buying_signals": ["no budget discussed", "decision maker absent", "no timeline", "just exploring"]
+  }
+}

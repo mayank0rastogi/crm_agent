@@ -1,0 +1,17 @@
+{
+  "customer_id": "cust_001",
+  "company_name": "XYZ Aviation Group",
+  "industry": "Aviation / Airline Operations",
+  "hq_country": "UAE",
+  "employee_count": 1200,
+  "primary_contact": "David Okafor",
+  "primary_contact_role": "CTO",
+  "contacts": [
+    {"name": "David Okafor", "role": "CTO", "email": "d.okafor@xyzair.com"},
+    {"name": "Meera Shah", "role": "VP Finance", "email": "m.shah@xyzair.com"}
+  ],
+  "domain": "xyzair.com",
+  "tier": "Enterprise",
+  "owner_ae": "Alice Morgan",
+  "created_date": "2025-01-10T00:00:00Z"
+}

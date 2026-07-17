@@ -1,0 +1,33 @@
+{
+  "customer_id": "customer_002",
+  "company_name": "Bluemount Retail",
+  "industry": "Retail",
+  "size": "small",
+  "employee_count": 25,
+  "hq_country": "UK",
+  "primary_contact": {
+    "name": "Mike Sorensen",
+    "title": "Office Manager",
+    "email": "mike.s@bluemountretail.com"
+  },
+  "secondary_contact": null,
+  "crm_opportunity": {
+    "opportunity_id": "opp_customer_002",
+    "stage": "Qualification",
+    "expected_revenue": 0,
+    "close_date": null,
+    "follow_up_tasks": [],
+    "custom_fields": {
+      "security_questionnaire_sent": false,
+      "security_review_required": false,
+      "proposal_sent": false,
+      "contract_signed": false,
+      "num_users": null,
+      "data_residency_requirement": null,
+      "po_number": null,
+      "implementation_start": null
+    },
+    "notes": "Inbound enquiry — office manager, decision maker not identified."
+  },
+  "created_at": "2025-06-10T00:00:00Z"
+}

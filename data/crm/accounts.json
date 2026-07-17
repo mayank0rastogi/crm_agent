@@ -1,0 +1,40 @@
+{
+  "accounts": [
+    {
+      "id": "acc_001",
+      "name": "Velora",
+      "canonical_name": "Etihad Airport Services",
+      "domain": "etihadairportservices.com",
+      "industry": "Aviation / Airport Services",
+      "tier": "Enterprise",
+      "employee_count": 1200,
+      "hq_country": "UAE",
+      "created_date": "2024-06-01T00:00:00Z",
+      "last_modified": "2025-01-10T00:00:00Z"
+    },
+    {
+      "id": "acc_002",
+      "name": "NovaTech Solutions",
+      "canonical_name": "NovaTech Solutions",
+      "domain": "novatech.io",
+      "industry": "SaaS / Technology",
+      "tier": "Standard",
+      "employee_count": 280,
+      "hq_country": "Germany",
+      "created_date": "2025-01-20T00:00:00Z",
+      "last_modified": "2025-02-15T00:00:00Z"
+    },
+    {
+      "id": "acc_003",
+      "name": "Meridian Corp",
+      "canonical_name": "Meridian Corp",
+      "domain": "meridiancorp.com",
+      "industry": "Financial Services",
+      "tier": "Enterprise",
+      "employee_count": 5000,
+      "hq_country": "USA",
+      "created_date": "2024-08-15T00:00:00Z",
+      "last_modified": "2025-01-05T00:00:00Z"
+    }
+  ]
+}

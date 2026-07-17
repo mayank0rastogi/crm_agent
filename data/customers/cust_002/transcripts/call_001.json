@@ -1,0 +1,14 @@
+{
+  "call_id": "cust_002_call_001",
+  "customer_id": "cust_002",
+  "call_number": 1,
+  "meeting_date": "2025-01-15T10:00:00Z",
+  "participants": ["Ben Carter (AE, TechServ)", "Ryan Patel (Operations Manager, Pinnacle Logistics)"],
+  "meeting_type": "discovery_call",
+  "raw_text": "Ben: Hi Ryan, thanks for reaching out. What's brought you to looking at a platform like ours?\n\nRyan: Honestly we're a small team — about 50 warehouse and logistics staff. We're trying to get away from spreadsheets for scheduling. I came across your product online.\n\nBen: Got it. So around 50 users to start. What kind of budget are you working with?\n\nRyan: We're quite budget conscious at the moment. I'd say we're looking at maybe $20,000 for the year, possibly a bit more if we can justify it to management. But I should be honest — I'm not the final decision maker. That would be our MD, Sandra Nguyen. I haven't actually got sign-off from her yet to even be evaluating this.\n\nBen: I see. Is there a timeline you're working to?\n\nRyan: Not really. It's more exploratory at this point. Sandra's focus is on other priorities right now. I wouldn't expect anything to move quickly — maybe something to revisit later in the year if things change.\n\nBen: Understood. Our entry-level option for 50 users would be around $25,000 annually. It's worth me sending over some information so you have it ready for when you do speak with Sandra.\n\nRyan: Sure, that would be helpful. I'll pass it on to her when the time is right.",
+  "metadata": {
+    "duration_minutes": 20,
+    "sentiment": "neutral",
+    "intent_signals": ["50 users", "$20,000 budget", "not decision maker", "no timeline", "exploratory", "MD not engaged"]
+  }
+}

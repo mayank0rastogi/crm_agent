@@ -1,0 +1,14 @@
+{
+  "call_id": "cust_001_call_001",
+  "customer_id": "cust_001",
+  "call_number": 1,
+  "meeting_date": "2025-01-10T10:00:00Z",
+  "participants": ["Alice Morgan (AE, TechServ)", "David Okafor (CTO, XYZ Air Services)", "Meera Shah (VP Finance, XYZ Air Services)"],
+  "meeting_type": "discovery_call",
+  "raw_text": "Alice: Thanks for taking the time today, David. Can you walk me through what's driving this initiative at your company?\n\nDavid: Sure. We're currently running manual processes for our ground operations staff scheduling. We have around 500 employees across three airports and the current system just isn't scaling. We're looking at enterprise software to modernise before peak season — ideally in place by Q2.\n\nMeera: From a finance side, we have budget set aside. We'd need to see detailed pricing before I can get formal sign-off from the board. Also our IT security team will definitely need to review any new vendor before we go ahead.\n\nAlice: Understood completely. I'll send over our security questionnaire this week so your team can start the review. I'll follow that up with a full pricing breakdown for 500 users.\n\nDavid: That works. One important thing to flag — you may still have us listed as XYZ Aviation Group in your system. We rebranded to XYZ Air Services earlier this year following a restructuring. Please make sure any contracts and records use the new name.\n\nAlice: Noted — I'll update that immediately. So XYZ Air Services is the correct legal entity going forward. Is the Q2 timeline firm?\n\nMeera: We'd ideally want go-live before June. Missing Q2 would mean waiting until our next budget cycle in Q4.",
+  "metadata": {
+    "duration_minutes": 40,
+    "sentiment": "positive",
+    "intent_signals": ["budget approved", "q2 deadline", "500 users", "security review needed", "rebrand mentioned"]
+  }
+}

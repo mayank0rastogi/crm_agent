@@ -1,0 +1,50 @@
+[
+  {
+    "id": "transcript_c001_call1",
+    "meeting_date": "2025-03-15T10:00:00Z",
+    "participants": ["Sarah Chen (AE)", "James Whitfield (CTO, Velora)", "Priya Nair (VP Finance, Velora)"],
+    "opportunity_id": "opp_001",
+    "raw_text": "Sarah: Thanks for joining today. Can you share more about your current infrastructure challenges?\n\nJames: Sure. We're running about 450 users right now on a legacy system. We're looking to migrate by Q1 next year — probably scaling to around 500 users once the new hires come in. The Enterprise subscription looks like the right fit.\n\nPriya: From a finance perspective, we have budget approved. We'd need pricing details before we can present internally. Also, our security team will want to see your security documentation before anything moves forward.\n\nSarah: Absolutely. I'll send over the security questionnaire today and follow up with pricing this week.\n\nJames: One more thing — you may still have us listed as Velora in your system. We rebranded to Etihad Airport Services earlier this year. Please update your records.\n\nSarah: Got it, will do. Is Q1 a hard deadline?\n\nPriya: Yes, April 1st at the latest. Missing that window pushes us to Q3 due to budget cycles.",
+    "metadata": {
+      "duration_minutes": 45,
+      "meeting_type": "discovery_call",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "transcript_002",
+    "meeting_date": "2025-03-20T14:30:00Z",
+    "participants": ["Marcus Reed (AE)", "Laura Simmons (CEO, NovaTech Solutions)"],
+    "opportunity_id": "opp_002",
+    "raw_text": "Laura: We've been evaluating three vendors and honestly your demo last week was the strongest. We're looking at roughly 200 seats to start.\n\nMarcus: Great to hear. What's the timeline looking like?\n\nLaura: We want to close by end of Q2. Budget is around $80,000 for the first year. That said, we'll need to see a formal proposal before legal gets involved.\n\nMarcus: I'll get that over to you by end of week. Any concerns we should address?\n\nLaura: The main one is data residency — we need everything in EU region. That's a hard requirement.\n\nMarcus: Understood, I'll flag that for our infrastructure team and confirm in the proposal.",
+    "metadata": {
+      "duration_minutes": 30,
+      "meeting_type": "evaluation_call",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "transcript_001b",
+    "meeting_date": "2025-03-28T11:00:00Z",
+    "participants": ["Sarah Chen (AE)", "James Whitfield (CTO, Etihad Airport Services)", "Priya Nair (VP Finance, Etihad Airport Services)"],
+    "opportunity_id": "opp_001",
+    "raw_text": "Sarah: Hi James, Priya — following up from our last call. I sent over the security questionnaire last week. Did your team get a chance to review it?\n\nJames: Yes, we reviewed it internally. Everything looks good. Security team signed off.\n\nPriya: We also reviewed the pricing. For 500 users on Enterprise, we'd be looking at the $375,000 annual figure you quoted. That fits within our approved budget.\n\nSarah: Perfect. I can now send over the formal proposal. Shall I address it to Etihad Airport Services?\n\nJames: Yes, that's correct. Etihad Airport Services is the legal entity. Make sure the contract header reflects that.\n\nPriya: The April 1st deadline still holds. We need the signed contract by then to activate before Q2 budget cycle closes.\n\nSarah: Understood. I'll have the proposal to you by end of week.",
+    "metadata": {
+      "duration_minutes": 30,
+      "meeting_type": "follow_up_call",
+      "sentiment": "positive"
+    }
+  },
+  {
+    "id": "transcript_003",
+    "meeting_date": "2025-03-22T09:00:00Z",
+    "participants": ["Diana Park (AE)", "Tom Graves (Procurement, Meridian Corp)"],
+    "opportunity_id": "opp_003",
+    "raw_text": "Tom: Look, I'll be direct. We went with a competitor last week. The pricing was significantly lower and they had better native integrations with our existing stack.\n\nDiana: I appreciate you telling me directly. Was there anything specific that swayed the decision?\n\nTom: The integration story was the biggest factor. Your team couldn't commit to a native Salesforce connector timeline.\n\nDiana: That's fair feedback. Is there any chance of revisiting if the integration gap closes?\n\nTom: Possibly in 12 months during the next renewal cycle. We'd consider a re-evaluation then.",
+    "metadata": {
+      "duration_minutes": 15,
+      "meeting_type": "loss_review",
+      "sentiment": "negative"
+    }
+  }
+]

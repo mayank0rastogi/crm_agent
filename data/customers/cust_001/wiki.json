@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-07-17T06:06:50.326602+00:00",
+  "entries": [
+    {
+      "id": "wiki_3f287ffb",
+      "category": "contacts",
+      "subject": "call_1_participants",
+      "content": "Call 1: David Okafor, Meera Shah",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:15.051425+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_72cde190",
+      "category": "meeting_outcome",
+      "subject": "call_1_sentiment",
+      "content": "Sentiment: neutral \u2014 discovery_call",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:15.052347+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_b7948845",
+      "category": "intent",
+      "subject": "call_1_intent",
+      "content": "Buying intent: HIGH after call 1.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:15.053033+00:00",
+      "confidence": 0.75,
+      "source": "auto_call_1",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_b4dd79b7",
+      "category": "next_action",
+      "subject": "recommended_nba",
+      "content": "NBA: INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:15.053703+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_0c85eff4",
+      "category": "contacts",
+      "subject": "call_2_participants",
+      "content": "Call 2: David Okafor",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:35.727514+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_2",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_472adc49",
+      "category": "meeting_outcome",
+      "subject": "call_2_sentiment",
+      "content": "Sentiment: positive \u2014 follow_up_call",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:35.728305+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_2",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_f96f1322",
+      "category": "intent",
+      "subject": "call_2_intent",
+      "content": "Buying intent: HIGH after call 2.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:35.729044+00:00",
+      "confidence": 0.95,
+      "source": "auto_call_2",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_79be0026",
+      "category": "next_action",
+      "subject": "recommended_nba",
+      "content": "NBA: SEND_SECURITY_QUESTIONNAIRE: Required before any commercial proposal.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:35.731107+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_2",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_d9bfdc19",
+      "category": "contacts",
+      "subject": "call_3_participants",
+      "content": "Call 3: David Okafor, Meera Shah",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:50.322556+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_3",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_df54ac6b",
+      "category": "meeting_outcome",
+      "subject": "call_3_sentiment",
+      "content": "Sentiment: positive \u2014 contract_signing",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:50.323969+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_3",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_31e12358",
+      "category": "intent",
+      "subject": "call_3_intent",
+      "content": "Buying intent: HIGH after call 3.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:50.325472+00:00",
+      "confidence": 0.95,
+      "source": "auto_call_3",
+      "customer_id": "cust_001"
+    },
+    {
+      "id": "wiki_f23605ec",
+      "category": "next_action",
+      "subject": "recommended_nba",
+      "content": "NBA: INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:06:50.326550+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_3",
+      "customer_id": "cust_001"
+    }
+  ],
+  "customer_id": "cust_001"
+}

@@ -1,0 +1,67 @@
+{
+  "opportunities": [
+    {
+      "id": "opp_001",
+      "account_id": "acc_001",
+      "name": "Velora - Enterprise Expansion",
+      "stage": "Qualification",
+      "expected_revenue": 250000,
+      "close_date": "Unknown",
+      "renewal_date": "Unknown",
+      "owner": "Sarah Chen",
+      "created_date": "2025-01-10T00:00:00Z",
+      "last_modified": "2025-02-01T00:00:00Z",
+      "notes": "Initial outbound. CTO showed interest in Enterprise tier.",
+      "follow_up_tasks": [],
+      "custom_fields": {
+        "security_review_required": false,
+        "security_questionnaire_sent": false,
+        "proposal_sent": false,
+        "num_users": null,
+        "data_residency_requirement": null
+      }
+    },
+    {
+      "id": "opp_002",
+      "account_id": "acc_002",
+      "name": "NovaTech Solutions - Standard Deal",
+      "stage": "Demo",
+      "expected_revenue": 80000,
+      "close_date": "2025-06-30",
+      "renewal_date": "Unknown",
+      "owner": "Marcus Reed",
+      "created_date": "2025-02-15T00:00:00Z",
+      "last_modified": "2025-03-15T00:00:00Z",
+      "notes": "Demo completed. Evaluating 3 vendors.",
+      "follow_up_tasks": [],
+      "custom_fields": {
+        "security_review_required": false,
+        "security_questionnaire_sent": false,
+        "proposal_sent": false,
+        "num_users": null,
+        "data_residency_requirement": null
+      }
+    },
+    {
+      "id": "opp_003",
+      "account_id": "acc_003",
+      "name": "Meridian Corp - Enterprise Deal",
+      "stage": "Negotiation",
+      "expected_revenue": 320000,
+      "close_date": "2025-03-31",
+      "renewal_date": "Unknown",
+      "owner": "Diana Park",
+      "created_date": "2024-11-01T00:00:00Z",
+      "last_modified": "2025-03-10T00:00:00Z",
+      "notes": "In final negotiation. Integration concerns raised.",
+      "follow_up_tasks": [],
+      "custom_fields": {
+        "security_review_required": true,
+        "security_questionnaire_sent": true,
+        "proposal_sent": true,
+        "num_users": 350,
+        "data_residency_requirement": null
+      }
+    }
+  ]
+}

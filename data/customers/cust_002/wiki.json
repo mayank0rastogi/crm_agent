@@ -1,0 +1,51 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-07-17T06:08:51.292429+00:00",
+  "entries": [
+    {
+      "id": "wiki_57b5e885",
+      "category": "contacts",
+      "subject": "call_1_participants",
+      "content": "Call 1: Ryan Patel",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:08:51.289844+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_002"
+    },
+    {
+      "id": "wiki_bff951db",
+      "category": "meeting_outcome",
+      "subject": "call_1_sentiment",
+      "content": "Sentiment: neutral \u2014 discovery_call",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:08:51.290565+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_002"
+    },
+    {
+      "id": "wiki_6ecc856f",
+      "category": "intent",
+      "subject": "call_1_intent",
+      "content": "Buying intent: MEDIUM after call 1.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:08:51.291371+00:00",
+      "confidence": 0.833,
+      "source": "auto_call_1",
+      "customer_id": "cust_002"
+    },
+    {
+      "id": "wiki_3c96f688",
+      "category": "next_action",
+      "subject": "recommended_nba",
+      "content": "NBA: SCHEDULE_DISCOVERY_FOLLOW_UP: Deepen qualification. Identify decision maker and budget approval path.",
+      "effective_date": "2026-07-17",
+      "added_date": "2026-07-17T06:08:51.292358+00:00",
+      "confidence": 0.9,
+      "source": "auto_call_1",
+      "customer_id": "cust_002"
+    }
+  ],
+  "customer_id": "cust_002"
+}

@@ -1,0 +1,294 @@
+[
+  {
+    "id": "bcf2b49d-34df-4681-a198-0aeb86a5757e",
+    "run_id": "run_0380655d",
+    "timestamp": "2026-07-17T06:06:15.056161+00:00",
+    "customer_id": "cust_001",
+    "applied_by": "crm_agent",
+    "applied_updates": [
+      {
+        "field": "account_name",
+        "old_value": null,
+        "new_value": "XYZ Air Services",
+        "confidence": 0.98
+      },
+      {
+        "field": "stage",
+        "old_value": "Qualification",
+        "new_value": "Discovery",
+        "confidence": 0.888
+      },
+      {
+        "field": "num_users",
+        "old_value": null,
+        "new_value": 500,
+        "confidence": 0.9
+      },
+      {
+        "field": "follow_up_tasks",
+        "old_value": [],
+        "new_value": [
+          "send_pricing_details",
+          "send_security_questionnaire",
+          "send_contract"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "field": "notes_history",
+        "old_value": [],
+        "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint.",
+        "confidence": 0.85
+      },
+      {
+        "field": "conversion_likelihood",
+        "old_value": 0.5,
+        "new_value": 0.55,
+        "confidence": 0.88
+      },
+      {
+        "field": "custom_fields.security_review_required",
+        "old_value": false,
+        "new_value": true,
+        "confidence": 0.98
+      },
+      {
+        "field": "next_best_action",
+        "old_value": null,
+        "new_value": "INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours.",
+        "confidence": 0.97
+      },
+      {
+        "field": "follow_up_recommended",
+        "old_value": null,
+        "new_value": true,
+        "confidence": 0.92
+      },
+      {
+        "field": "follow_up_rationale",
+        "old_value": null,
+        "new_value": "High intent. Continue active pursuit \u2014 do not allow deal to go cold.",
+        "confidence": 0.92
+      }
+    ],
+    "deferred_updates": [],
+    "total_applied": 10,
+    "total_deferred": 0
+  },
+  {
+    "id": "06293f11-e9cc-4c39-9bd6-f01ed6c7211c",
+    "run_id": "run_d754e8e7",
+    "timestamp": "2026-07-17T06:06:35.732151+00:00",
+    "customer_id": "cust_001",
+    "applied_by": "crm_agent",
+    "applied_updates": [
+      {
+        "field": "account_name",
+        "old_value": "XYZ Air Services",
+        "new_value": "XYZ Air Services",
+        "confidence": 0.98
+      },
+      {
+        "field": "expected_revenue",
+        "old_value": 0,
+        "new_value": 375000,
+        "confidence": 0.88
+      },
+      {
+        "field": "close_date",
+        "old_value": null,
+        "new_value": "end of this",
+        "confidence": 0.82
+      },
+      {
+        "field": "follow_up_tasks",
+        "old_value": [
+          "send_pricing_details",
+          "send_security_questionnaire",
+          "send_contract"
+        ],
+        "new_value": [
+          "send_pricing_details",
+          "send_proposal"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "field": "notes_history",
+        "old_value": [
+          "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint."
+        ],
+        "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of this. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint.",
+        "confidence": 0.85
+      },
+      {
+        "field": "conversion_likelihood",
+        "old_value": 0.55,
+        "new_value": 0.75,
+        "confidence": 0.88
+      },
+      {
+        "field": "next_best_action",
+        "old_value": "INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours.",
+        "new_value": "SEND_SECURITY_QUESTIONNAIRE: Required before any commercial proposal.",
+        "confidence": 0.95
+      },
+      {
+        "field": "follow_up_recommended",
+        "old_value": true,
+        "new_value": true,
+        "confidence": 0.92
+      },
+      {
+        "field": "follow_up_rationale",
+        "old_value": "High intent. Continue active pursuit \u2014 do not allow deal to go cold.",
+        "new_value": "High intent. Continue active pursuit \u2014 do not allow deal to go cold.",
+        "confidence": 0.92
+      }
+    ],
+    "deferred_updates": [],
+    "total_applied": 9,
+    "total_deferred": 0
+  },
+  {
+    "id": "c4e8d1a1-d994-43d1-82f3-1393fda2d9ad",
+    "run_id": "run_5e1907af",
+    "timestamp": "2026-07-17T06:06:50.327769+00:00",
+    "customer_id": "cust_001",
+    "applied_by": "crm_agent",
+    "applied_updates": [
+      {
+        "field": "account_name",
+        "old_value": "XYZ Air Services",
+        "new_value": "XYZ Air Services",
+        "confidence": 0.98
+      },
+      {
+        "field": "deal_duration_years",
+        "old_value": null,
+        "new_value": 3,
+        "confidence": 0.93
+      },
+      {
+        "field": "renewal_date",
+        "old_value": null,
+        "new_value": "February 2028",
+        "confidence": 0.92
+      },
+      {
+        "field": "follow_up_tasks",
+        "old_value": [
+          "send_pricing_details",
+          "send_proposal"
+        ],
+        "new_value": [
+          "send_proposal",
+          "send_contract"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "field": "notes_history",
+        "old_value": [
+          "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Required actions: send_pricing_details, send_security_questionnaire, send_contract. Customer concerns: security_concerns, price_sensitivity, timeline_pressure, budget_constraint.",
+          "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: Q2. Hard deadline: end of this. Required actions: send_pricing_details, send_proposal. Customer concerns: security_concerns, price_sensitivity, budget_constraint."
+        ],
+        "new_value": "Meeting with XYZ Air Services. Buying intent: HIGH. Interested in 500 users. Estimated deal value: $375,000. Target timeline: June 1st. Required actions: send_proposal, send_contract.",
+        "confidence": 0.85
+      },
+      {
+        "field": "conversion_likelihood",
+        "old_value": 0.75,
+        "new_value": 1.0,
+        "confidence": 0.88
+      },
+      {
+        "field": "custom_fields.security_questionnaire_sent",
+        "old_value": false,
+        "new_value": true,
+        "confidence": 0.92
+      },
+      {
+        "field": "custom_fields.proposal_sent",
+        "old_value": false,
+        "new_value": true,
+        "confidence": 0.95
+      },
+      {
+        "field": "custom_fields.contract_signed",
+        "old_value": false,
+        "new_value": true,
+        "confidence": 0.97
+      },
+      {
+        "field": "next_best_action",
+        "old_value": "SEND_SECURITY_QUESTIONNAIRE: Required before any commercial proposal.",
+        "new_value": "INITIATE_ONBOARDING: Assign customer success manager and schedule kick-off within 48 hours.",
+        "confidence": 0.97
+      },
+      {
+        "field": "follow_up_recommended",
+        "old_value": true,
+        "new_value": true,
+        "confidence": 0.92
+      },
+      {
+        "field": "follow_up_rationale",
+        "old_value": "High intent. Continue active pursuit \u2014 do not allow deal to go cold.",
+        "new_value": "High intent. Continue active pursuit \u2014 do not allow deal to go cold.",
+        "confidence": 0.92
+      },
+      {
+        "field": "actual_revenue",
+        "old_value": null,
+        "new_value": 375000,
+        "confidence": 0.95
+      }
+    ],
+    "deferred_updates": [],
+    "total_applied": 13,
+    "total_deferred": 0
+  },
+  {
+    "id": "f08cebb6-7455-4ba5-ab09-0cde2c196a56",
+    "run_id": "run_2fad1c2f",
+    "timestamp": "2026-07-17T06:08:51.293392+00:00",
+    "customer_id": "cust_002",
+    "applied_by": "crm_agent",
+    "applied_updates": [
+      {
+        "field": "expected_revenue",
+        "old_value": 0,
+        "new_value": 20000,
+        "confidence": 0.88
+      },
+      {
+        "field": "num_users",
+        "old_value": null,
+        "new_value": 50,
+        "confidence": 0.9
+      },
+      {
+        "field": "notes_history",
+        "old_value": [],
+        "new_value": "Meeting with Pinnacle Logistics. Buying intent: MEDIUM. Interested in 50 users. Estimated deal value: $20,000. Customer concerns: timeline_pressure, budget_constraint.",
+        "confidence": 0.85
+      },
+      {
+        "field": "conversion_likelihood",
+        "old_value": 0.5,
+        "new_value": 0.45,
+        "confidence": 0.88
+      },
+      {
+        "field": "next_best_action",
+        "old_value": null,
+        "new_value": "SCHEDULE_DISCOVERY_FOLLOW_UP: Deepen qualification. Identify decision maker and budget approval path.",
+        "confidence": 0.72
+      }
+    ],
+    "deferred_updates": [],
+    "total_applied": 5,
+    "total_deferred": 0
+  }
+]

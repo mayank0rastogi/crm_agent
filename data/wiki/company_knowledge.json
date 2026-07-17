@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "last_updated": null,
+  "entries": [
+    {
+      "id": "wiki_001",
+      "category": "company_rename",
+      "subject": "Velora",
+      "content": "Velora was renamed to Etihad Airport Services in early 2025 following acquisition by Etihad Aviation Group.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-15T09:00:00Z",
+      "confidence": 1.0,
+      "source": "official_announcement"
+    },
+    {
+      "id": "wiki_002",
+      "category": "contact_info",
+      "subject": "Etihad Airport Services",
+      "content": "Official email domain is @etihadairportservices.com. Previous domain @velora.com is being deprecated.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-15T09:05:00Z",
+      "confidence": 1.0,
+      "source": "it_notification"
+    },
+    {
+      "id": "wiki_003",
+      "category": "process_rule",
+      "subject": "security_workflow",
+      "content": "Security questionnaire must always be sent before any commercial proposal. This is a hard requirement for compliance.",
+      "effective_date": "2024-06-01",
+      "added_date": "2024-06-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "compliance_team"
+    },
+    {
+      "id": "wiki_004",
+      "category": "deal_rule",
+      "subject": "enterprise_threshold",
+      "content": "Enterprise opportunities above $100,000 require a Security Review before progressing past Discovery stage.",
+      "effective_date": "2024-06-01",
+      "added_date": "2024-06-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "revenue_ops"
+    },
+    {
+      "id": "wiki_005",
+      "category": "pricing",
+      "subject": "enterprise_tier",
+      "content": "Enterprise tier pricing: $750 per user per year for 500+ users. Volume discounts apply at 1000+ users.",
+      "effective_date": "2025-01-01",
+      "added_date": "2025-01-10T00:00:00Z",
+      "confidence": 0.9,
+      "source": "pricing_team"
+    },
+    {
+      "id": "wiki_006",
+      "category": "process_rule",
+      "subject": "data_residency",
+      "content": "EU data residency requirements must be flagged to infrastructure team and confirmed in writing before contract signing.",
+      "effective_date": "2024-09-01",
+      "added_date": "2024-09-01T00:00:00Z",
+      "confidence": 1.0,
+      "source": "legal_team"
+    },
+    {
+      "id": "wiki_007",
+      "category": "company_info",
+      "subject": "NovaTech Solutions",
+      "content": "NovaTech Solutions is a German SaaS company. All contracts must include GDPR compliance clauses. Primary contact: Laura Simmons (CEO).",
+      "effective_date": "2025-02-15",
+      "added_date": "2025-02-15T00:00:00Z",
+      "confidence": 0.95,
+      "source": "account_team"
+    }
+  ]
+}
